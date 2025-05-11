@@ -52,3 +52,17 @@ The moderating factor is often called a learning rate, and we’ve called it L.
 
 A simple linear classifier is not useful
 if the underlying problem is not separable by a straight line.
+
+Observations suggest that neurons don’t react readily, but instead suppress the
+input until it has grown so large that it triggers an output. You can think of this
+as a threshold that must be reached before any output is produced.
+
+sigmoid function is an S shaped function that more accurately represents 
+a activation of neuron , or neuron is fired.
+nature often doesn't have cold binary logic.
+
+weight is used to refine neurons.
+
+Zero, or almost zero, weights means those links don’t
+contribute to the network because signals don’t pass.
+
